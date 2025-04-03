@@ -6,9 +6,7 @@ const HeroSection = () => {
   const navigate = useNavigate();
   const [playing, setPlaying] = useState(false);
 
-  const toggleVideo = () => {
-    setPlaying(!playing);
-  };
+  const toggleVideo = () => setPlaying(!playing);
 
   return (
     <div className={`hero-container ${playing ? 'video-active' : ''}`}>
@@ -23,18 +21,18 @@ const HeroSection = () => {
           ></iframe>
         </div>
       )}
-
       <div className="hero-text">
         <h1>
           Toronto T
           <span className="easter-egg-trigger" onClick={toggleVideo}>o</span>
           p Training
         </h1>
-        <p>Choose your path below to get started:</p>
-        <div className="cta-group">
-          <button className="cta-button" onClick={() => navigate('/personal-training')}>Personal Training</button>
-          <button className="cta-button" onClick={() => navigate('/program-design')}>Program Design</button>
-          <button className="cta-button" onClick={() => navigate('/trainer-consultation')}>Trainer Consultation</button>
+        <p>Personal training. Online programs. Trainer consulting.</p>
+        <button className="get-started" onClick={() => window.location = 'mailto:info@torontotoptraining.com'}>Get Started</button>
+        <div className="cta-list">
+          <div onClick={() => navigate('/personal-training')}>Personal Training</div>
+          <div onClick={() => navigate('/program-design')}>Program Design</div>
+          <div onClick={() => navigate('/trainer-consultation')}>Trainer Consultation</div>
         </div>
       </div>
     </div>
