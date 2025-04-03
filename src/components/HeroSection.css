@@ -17,6 +17,7 @@
   font-size: 2.6rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  line-height: 1.1;
 }
 
 .hero-text p {
@@ -54,16 +55,21 @@
   color: #4a4a4a;
 }
 
+/* Perfectly align the Easter egg "o" visually with text */
 .easter-egg-trigger {
-  display: inline-block;
   cursor: pointer;
-  color: inherit;
-  font-weight: 700;
+  display: inline;
+  font-weight: inherit;
   font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
   position: relative;
-  top: 0.05em;
+  top: 0;
 }
 
+/* Video overlay */
 .easter-egg-overlay {
   position: fixed;
   top: 0;
