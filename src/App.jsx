@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
 
-// Placeholder components
+// Placeholder pages
 const About = () => <div className="page"><h2>About Us</h2><p>Learn about our team and approach.</p></div>;
 const Services = () => <div className="page"><h2>Services</h2><p>Explore our training and coaching options.</p></div>;
 const Blog = () => <div className="page"><h2>Blog</h2><p>Articles, tips, and news coming soon!</p></div>;
