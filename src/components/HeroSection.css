@@ -6,44 +6,45 @@
   padding: 2rem;
 }
 
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .hero-text p {
   font-size: 1.1rem;
-  margin: 1rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .get-started {
   background: black;
   color: white;
   border: none;
-  padding: 12px 20px;
+  padding: 12px 24px;
   border-radius: 9999px;
   font-size: 1rem;
   margin-top: 1rem;
+  margin-bottom: 2rem;
   cursor: pointer;
 }
 
-.cta-list {
-  margin-top: 2rem;
+.cta-links {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-size: 1rem;
 }
 
-.cta-list div {
+.cta-links div {
+  font-size: 1rem;
   color: black;
   cursor: pointer;
   font-weight: 500;
-  transition: opacity 0.2s ease;
-}
-
-.cta-list div:hover {
-  opacity: 0.6;
 }
 
 .easter-egg-trigger {
@@ -52,7 +53,6 @@
   color: inherit;
   font-weight: 700;
   font-size: inherit;
-  vertical-align: middle;
   position: relative;
   top: 0.05em;
 }
