@@ -40,11 +40,8 @@
   padding: 4rem 1rem;
   width: 100%;
   max-width: 720px;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(6px);
   border-radius: 1rem;
   color: white;
-  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
 }
 
 .hero-title {
