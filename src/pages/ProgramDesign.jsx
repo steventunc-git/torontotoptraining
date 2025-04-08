@@ -14,7 +14,7 @@ const ProgramDesign = () => {
       }}
     >
       <div className="max-w-2xl mx-auto text-left bg-black bg-opacity-60 p-6 rounded-lg">
-        <h1 className="text-3xl font-bold mb-4 text-center">Program Design</h1>
+        <h1 className="text-3xl font-bold mb-4 text-left">Program Design</h1>
         <p className="mb-6">
           Have you been doing online workout programs? Hit a plateau? Reaching a specific target goal
           requires a bespoke training plan tailored to your biology and milestones.
