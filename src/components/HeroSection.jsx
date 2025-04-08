@@ -4,6 +4,7 @@ import IntakeFlow from './intake/IntakeFlow'
 import './HeroSection.css'
 
 function HeroSection() {
+  const navigate = useNavigate()
   const [showEasterEgg, setShowEasterEgg] = useState(false)
   const [showIntake, setShowIntake] = useState(false)
   const videoRef = useRef(null)
