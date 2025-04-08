@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import IntakeFlow from './intake/IntakeFlow'
 import './HeroSection.css'
 
@@ -52,15 +53,15 @@ function HeroSection() {
         </p>
         <button className="get-started-button" onClick={() => setShowIntake(true)}>Get Started</button>
         <div className="cta-section">
-          <div>
+          <div onClick={() => navigate('/personal-training')} style={{ cursor: 'pointer' }}>
             <strong>Personal Training</strong>
             <p>1-on-1 sessions in-person or virtual. Goal-driven and progress-focused.</p>
           </div>
-          <div>
+          <div onClick={() => navigate('/program-design')} style={{ cursor: 'pointer' }}>
             <strong>Online Programming</strong>
             <p>Custom plans with workouts, meals, and supplement guidance.</p>
           </div>
-          <div>
+          <div onClick={() => navigate('/trainer-consulting')} style={{ cursor: 'pointer' }}>
             <strong>Trainer Consulting</strong>
             <p>Coaching for trainers to better serve tough or stuck clients.</p>
           </div>
