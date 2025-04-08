@@ -1,0 +1,82 @@
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-section.video-playing {
+  background-color: transparent;
+}
+
+.easter-egg-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.get-started-button {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-section div {
+  cursor: pointer;
+}
+
+.cta-section p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.easter-egg-trigger {
+  display: inline-block;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  left: -0.05rem;
+}
