@@ -5,26 +5,28 @@ export default function ProgramDesign() {
   return (
     <div className="program-design-page">
       <h1>Program Design</h1>
+
       <p>
-        Have you been following online programs and hit a plateau? Reaching a specific goal
-        often requires a customized approach tailored to your individual needs.
+        Experiencing a plateau in your fitness journey can be both frustrating and demotivating.
+        This stagnation often indicates that your current workout regimen no longer challenges your body
+        sufficiently to elicit further adaptations. To overcome this, a personalized, periodized training program becomes essential.
       </p>
+
       <p>
-        Most commercial programs rely on simplified versions of “periodization” — a method
-        originally developed in Soviet-era training. Properly applied, it’s the gold standard
-        for long-term progress.
+        Periodization is a systematic approach to training that involves the strategic manipulation of exercise variables—
+        such as load, volume, and intensity—over specific timeframes. This method is designed to optimize performance gains
+        and prevent overtraining by organizing training into distinct cycles:
       </p>
-      <p>
-        Periodization helps you:
-      </p>
+
       <ul>
-        <li>Build lean muscle efficiently</li>
-        <li>Break through stagnation</li>
-        <li>Hit personal records with precision</li>
+        <li><strong>Microcycles:</strong> Weekly focused sessions for specific adaptations.</li>
+        <li><strong>Mesocycles:</strong> 1–3 month targeted blocks designed for progressive development.</li>
+        <li><strong>Macrocycles:</strong> Long-term planning (6–12 months) aligning with major performance milestones.</li>
       </ul>
+
       <p>
-        Whether you're prepping for a competition, recovering from injury, or simply want a
-        roadmap that works — a customized program will take your training to the next level.
+        Whether your goals involve strength gains, aesthetic transformation, or athletic conditioning,
+        a structured program ensures each session builds toward a purpose—maximizing results while respecting your physiology and recovery needs.
       </p>
     </div>
   )
