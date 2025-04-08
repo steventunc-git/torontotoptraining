@@ -1,8 +1,9 @@
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import HeroSection from './components/HeroSection'
 import PersonalTraining from './pages/PersonalTraining'
 import ProgramDesign from './pages/ProgramDesign'
-import TrainerConsultation from './pages/TrainerConsultation'
+import TrainerConsulting from './pages/TrainerConsulting'  # ✅ ADD THIS
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route path="/" element={<HeroSection />} />
         <Route path="/personal-training" element={<PersonalTraining />} />
         <Route path="/program-design" element={<ProgramDesign />} />
-        <Route path="/trainer-consultation" element={<TrainerConsultation />} />
+        <Route path="/trainer-consulting" element={<TrainerConsulting />} />  # ✅ ADD THIS
       </Routes>
     </Router>
   )
