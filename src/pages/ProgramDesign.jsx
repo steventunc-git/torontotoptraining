@@ -5,6 +5,8 @@ function ProgramDesign() {
     <div className="program-design-page" style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
       <h1>Program Design</h1>
       <p>
+Experiencing a plateau in your fitness journey can be both frustrating and demotivating. This stagnation often indicates that your current workout regimen no longer challenges your body sufficiently to elicit further adaptations. To overcome this, a personalized, periodized training program becomes essential.
+
         Have you been doing online workout programs? Have you reached a point of stagnation?
         (Commonly known as a "plateau"). Reaching a specific target goal will require a bespoke
         training program as you reach the ceiling of your potential.
