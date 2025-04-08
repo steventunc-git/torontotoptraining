@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import HeroSection from './components/HeroSection'
 import PersonalTraining from './pages/PersonalTraining'
 import ProgramDesign from './pages/ProgramDesign'
-import TrainerConsulting from './pages/TrainerConsulting'  # ✅ ADD THIS
+import TrainerConsulting from './pages/TrainerConsulting'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<HeroSection />} />
         <Route path="/personal-training" element={<PersonalTraining />} />
         <Route path="/program-design" element={<ProgramDesign />} />
-        <Route path="/trainer-consulting" element={<TrainerConsulting />} />  # ✅ ADD THIS
+        <Route path="/trainer-consulting" element={<TrainerConsulting />} />  
       </Routes>
     </Router>
   )
