@@ -29,22 +29,18 @@ export default function ProgramDesign() {
 
       <p>
         This structured approach allows for planned variations in training stimuli, ensuring continuous progression and minimizing the risk of plateaus.
-        <br />
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4637911/?utm_source=chatgpt.com" target="_blank" rel="noreferrer">[Scientific Source]</a>
       </p>
 
       <p>
         The origins of periodization trace back to the Soviet Union, where it was developed to enhance athletic performance systematically.
         This methodology has since been widely adopted and refined, forming the foundation of many contemporary training programs.
-        <br />
-        <a href="https://en.wikipedia.org/wiki/Sports_periodization?utm_source=chatgpt.com" target="_blank" rel="noreferrer">[Wikipedia]</a>
       </p>
 
       <p>Incorporating periodization into your fitness routine offers several advantages:</p>
       <ul style={{ paddingLeft: '1rem' }}>
-        <li><strong>Optimized Performance</strong>: Achieve peak performance at designated times aligned with competitions or life events.</li>
-        <li><strong>Injury Prevention</strong>: Structured recovery phases reduce the risk of overuse injuries.</li>
-        <li><strong>Psychological Benefits</strong>: Variation in training prevents monotony and maintains motivation.</li>
+        <li>Optimized Performance: Achieve peak performance at designated times aligned with competitions or life events.</li>
+        <li>Injury Prevention: Structured recovery phases reduce the risk of overuse injuries.</li>
+        <li>Psychological Benefits: Variation in training prevents monotony and maintains motivation.</li>
       </ul>
 
       <p>
