@@ -11,17 +11,13 @@ export default function ProgramDesign() {
         sufficiently to elicit further adaptations. To overcome this, a personalized, periodized training program becomes essential.
       </p>
 
-      <img src="/unnamed.png" alt="Performance vs Genetic Potential" style={{ width: '100%', margin: '2rem 0' }} />
-      <img src="/basic_athletic_performance_curve.webp" alt="Performance curve by level" style={{ width: '100%', margin: '2rem 0' }} />
-      <img src="/how-much-muscle-gain-per-year-skinny-ectomorph-hardgainer-compared-to-average.jpg" alt="Muscle gain per year" style={{ width: '100%', margin: '2rem 0' }} />
-
       <p>
         Periodization is a systematic approach to training that involves the strategic manipulation of exercise variables—
         such as load, volume, and intensity—over specific timeframes. This method is designed to optimize performance gains
         and prevent overtraining by organizing training into distinct cycles:
       </p>
 
-      <ul style={{ paddingLeft: '1rem', marginBottom: '1rem' }}>
+      <ul style={{ paddingLeft: '1rem', marginBottom: '1rem', marginTop: '1rem' }}>
         <li><strong>Microcycle</strong>: Usually lasting up to a week, focusing on short-term goals and daily training variations.</li>
         <li><strong>Mesocycle</strong>: Spanning several weeks to months, targeting specific training adaptations like strength or endurance.</li>
         <li><strong>Macrocycle</strong>: Encompassing the entire training year, integrating various mesocycles to achieve long-term objectives.</li>
@@ -37,10 +33,10 @@ export default function ProgramDesign() {
       </p>
 
       <p>Incorporating periodization into your fitness routine offers several advantages:</p>
-      <ul style={{ paddingLeft: '1rem' }}>
-        <li>Optimized Performance: Achieve peak performance at designated times aligned with competitions or life events.</li>
-        <li>Injury Prevention: Structured recovery phases reduce the risk of overuse injuries.</li>
-        <li>Psychological Benefits: Variation in training prevents monotony and maintains motivation.</li>
+      <ul style={{ paddingLeft: '1rem', marginBottom: '1rem' }}>
+        <li><strong>Optimized Performance</strong>: Achieve peak performance at designated times aligned with competitions or life events.</li>
+        <li><strong>Injury Prevention</strong>: Structured recovery phases reduce the risk of overuse injuries.</li>
+        <li><strong>Psychological Benefits</strong>: Variation in training prevents monotony and maintains motivation.</li>
       </ul>
 
       <p>
