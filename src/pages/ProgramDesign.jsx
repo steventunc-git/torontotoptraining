@@ -25,17 +25,17 @@ export default function ProgramDesign() {
           goals like building lean mass, hitting PRs, or preparing for specific events.
         </p>
         <ul className="list-disc pl-5 space-y-4 text-base mb-4">
-          <li>Microcycles (Short-term): Weekly or bi-weekly goal focus</li>
-          <li>Mesocycles (Medium-term): Monthly program blocks with targets</li>
-          <li>Macrocycles (Long-term): Seasonal or annual planning to peak on time</li>
+          <li><strong>Microcycles (Short-term):</strong> Weekly or bi-weekly goal focus</li>
+          <li><strong>Mesocycles (Medium-term):</strong> Monthly program blocks with targets</li>
+          <li><strong>Macrocycles (Long-term):</strong> Seasonal or annual planning to peak on time</li>
         </ul>
         <p className="mb-4">
           Custom programming can also include:
         </p>
         <ul className="list-disc pl-5 space-y-4 text-base mb-4">
-          <li>Meal and supplement planning</li>
-          <li>Hormonal and metabolic optimization</li>
-          <li>Adaptations for injury, illness, or special conditions</li>
+          <li><strong>Meal and supplement planning:</strong> Nutrition aligned with performance and recovery</li>
+          <li><strong>Hormonal and metabolic optimization:</strong> Tailored routines for unique physiology</li>
+          <li><strong>Condition-based adaptations:</strong> Programming for injuries, illness, or other needs</li>
         </ul>
         <p>
           Whether it’s a 4-week plan or a yearlong map, a professional program keeps you focused
