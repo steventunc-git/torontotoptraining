@@ -1,56 +1,56 @@
-import React from 'react';
+import React from 'react'
 
-function ProgramDesign() {
+export default function ProgramDesign() {
   return (
     <div className="program-design-page" style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <h1>Program Design</h1>
-      <p>
-Experiencing a plateau in your fitness journey can be both frustrating and demotivating. This stagnation often indicates that your current workout regimen no longer challenges your body sufficiently to elicit further adaptations. To overcome this, a personalized, periodized training program becomes essential.
-
-        Have you been doing online workout programs? Have you reached a point of stagnation?
-        (Commonly known as a "plateau"). Reaching a specific target goal will require a bespoke
-        training program as you reach the ceiling of your potential.
-      </p>
-
-      <img src="/unnamed.png" alt="Performance vs Time - Curve 1" style={{ width: '100%', margin: '2rem 0' }} />
-      <img src="/basic_athletic_performance_curve.webp" alt="Performance vs Time - Curve 2" style={{ width: '100%', margin: '2rem 0' }} />
-      <img src="/how-much-muscle-gain-per-year-skinny-ectomorph-hardgainer-compared-to-average.jpg" alt="Performance vs Muscle Gain Timeline" style={{ width: '100%', margin: '2rem 0' }} />
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem' }}>Program Design</h1>
 
       <p>
-        The truth is that almost all training programs in big-box gyms follow the "periodization"
-        method stemming from Soviet bloc training. In simplified form, this is the basis behind what
-        is known as "progressive overload". This is effectively a way to plan and program your body
-        to reach certain milestones such as:
+        Experiencing a plateau in your fitness journey can be both frustrating and demotivating.
+        This stagnation often indicates that your current workout regimen no longer challenges your body
+        sufficiently to elicit further adaptations. To overcome this, a personalized, periodized training program becomes essential.
       </p>
-      <ul>
-        <li>Building Lean Mass</li>
-        <li>Achieving PRs (Personal Records) for major movement patterns</li>
-        <li>Burning a specific amount of non-lean mass</li>
+
+      <img src="/unnamed.png" alt="Performance vs Genetic Potential" style={{ width: '100%', margin: '2rem 0' }} />
+      <img src="/basic_athletic_performance_curve.webp" alt="Performance curve by level" style={{ width: '100%', margin: '2rem 0' }} />
+      <img src="/how-much-muscle-gain-per-year-skinny-ectomorph-hardgainer-compared-to-average.jpg" alt="Muscle gain per year" style={{ width: '100%', margin: '2rem 0' }} />
+
+      <p>
+        Periodization is a systematic approach to training that involves the strategic manipulation of exercise variables—
+        such as load, volume, and intensity—over specific timeframes. This method is designed to optimize performance gains
+        and prevent overtraining by organizing training into distinct cycles:
+      </p>
+
+      <ul style={{ paddingLeft: '1rem', marginBottom: '1rem' }}>
+        <li><strong>Microcycle</strong>: Usually lasting up to a week, focusing on short-term goals and daily training variations.</li>
+        <li><strong>Mesocycle</strong>: Spanning several weeks to months, targeting specific training adaptations like strength or endurance.</li>
+        <li><strong>Macrocycle</strong>: Encompassing the entire training year, integrating various mesocycles to achieve long-term objectives.</li>
       </ul>
 
       <p>
-        Seen below in simplified form, this method of planning can take place as far ahead as a year
-        and will plan for specific dates of milestone achievement whether in athletic competition or
-        social engagements like weddings or reunions. This methodology is the most efficient way to
-        plan your progression over the Short, Medium, and Long-Term (known as a Micro, Meso, and
-        Macro-Cycle respectively).
-      </p>
-
-      <img src="/periodization-diagram.png" alt="Periodization Planning" style={{ width: '100%', margin: '2rem 0' }} />
-
-      <p>
-        Periodization is the most specific way to tailor your workout around your biology. It can be
-        combined with meal planning, hormone optimization, or accommodations for conditions like
-        diabetes. Specialized programs are necessary for all intermediate to professional-level
-        fitness enthusiasts.
+        This structured approach allows for planned variations in training stimuli, ensuring continuous progression and minimizing the risk of plateaus.
+        <br />
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4637911/?utm_source=chatgpt.com" target="_blank" rel="noreferrer">[Scientific Source]</a>
       </p>
 
       <p>
-        In summary, whether creating a short-term plan or a long-term periodized cycle, a tailored
-        workout program is the most efficient way to reach your goals.
+        The origins of periodization trace back to the Soviet Union, where it was developed to enhance athletic performance systematically.
+        This methodology has since been widely adopted and refined, forming the foundation of many contemporary training programs.
+        <br />
+        <a href="https://en.wikipedia.org/wiki/Sports_periodization?utm_source=chatgpt.com" target="_blank" rel="noreferrer">[Wikipedia]</a>
+      </p>
+
+      <p>Incorporating periodization into your fitness routine offers several advantages:</p>
+      <ul style={{ paddingLeft: '1rem' }}>
+        <li><strong>Optimized Performance</strong>: Achieve peak performance at designated times aligned with competitions or life events.</li>
+        <li><strong>Injury Prevention</strong>: Structured recovery phases reduce the risk of overuse injuries.</li>
+        <li><strong>Psychological Benefits</strong>: Variation in training prevents monotony and maintains motivation.</li>
+      </ul>
+
+      <p>
+        In summary, adopting a periodized training plan tailored to your individual needs and goals can effectively break through performance plateaus,
+        leading to continuous improvement and long-term success in your fitness endeavors.
       </p>
     </div>
-  );
+  )
 }
-
-export default ProgramDesign;
