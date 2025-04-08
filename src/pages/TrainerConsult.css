@@ -1,0 +1,33 @@
+.trainer-consult-page {
+  background-image: url('/trainer-consult.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.trainer-consult-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+}
+
+.trainer-consult-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.trainer-consult-content p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.trainer-consult-content ul {
+  margin-left: 1.25rem;
+  list-style: disc;
+}

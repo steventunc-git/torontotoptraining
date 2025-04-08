@@ -60,7 +60,7 @@ function HeroSection() {
             <strong>Online Programming</strong>
             <p>Custom plans with workouts, meals, and supplement guidance.</p>
           </div>
-          <div onClick={() => navigate('/trainer-consulting')} style={{ cursor: 'pointer' }}>
+          <div onClick={() => navigate('/trainer-consult')} style={{ cursor: 'pointer' }}>
             <strong>Trainer Consulting</strong>
             <p>Coaching for trainers to better serve tough or stuck clients.</p>
           </div>
