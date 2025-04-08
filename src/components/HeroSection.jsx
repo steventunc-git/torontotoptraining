@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
-import IntakeFlow from './intake/IntakeFlow'
+// import IntakeFlow from './intake/IntakeFlow'
 import './HeroSection.css'
 
 function HeroSection() {
   const navigate = useNavigate()
   const [showEasterEgg, setShowEasterEgg] = useState(false)
-  const [showIntake, setShowIntake] = useState(false)
+  // const [showIntake, setShowIntake] = useState(false)
   const videoRef = useRef(null)
 
   useEffect(() => {
@@ -25,9 +25,7 @@ function HeroSection() {
     }
   }, [showEasterEgg])
 
-  return showIntake ? (
-    <IntakeFlow />
-  ) : (
+  return (
     <section className={`hero-section ${showEasterEgg ? 'video-playing' : ''}`}>
       {showEasterEgg && (
         <video
@@ -52,7 +50,7 @@ function HeroSection() {
         <p className="hero-subtitle">
           Personal training. Online programs. Trainer consulting.
         </p>
-        <button className="get-started-button" onClick={() => setShowIntake(true)}>Get Started</button>
+        <a className="get-started-button" href="mailto:intake@torontotoptraining.com">Get Started</a>
         <div className="cta-section">
           <div onClick={() => navigate('/personal-training')} style={{ cursor: 'pointer' }}>
             <strong>Personal Training</strong>
