@@ -1,0 +1,32 @@
+.program-design-page {
+  background-image: url('/assets/program.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program-design-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.program-design-page p,
+.program-design-page ul {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.program-design-page ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
