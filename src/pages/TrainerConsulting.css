@@ -1,34 +1,30 @@
-.trainer-consulting-page {
+.trainer-consulting-section {
   position: relative;
+  min-height: 100vh;
   background-image: url('/assets/trainer-consultation.webp');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  color: white;
-  text-align: left;
+  padding: 4rem 2rem;
 }
 
-.trainer-consulting-content {
-  background-color: rgba(0, 0, 0, 0.6);
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
   padding: 2rem;
   border-radius: 1rem;
   max-width: 800px;
   width: 100%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.trainer-consulting-content h1 {
-  font-size: 2rem;
+.overlay h1 {
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.trainer-consulting-content p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 1rem;
+.overlay p {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
