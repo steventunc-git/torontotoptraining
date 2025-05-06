@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
-// import IntakeFlow from './intake/IntakeFlow'
+import IntakeForm from './IntakeForm'
 import './HeroSection.css'
 
 function HeroSection() {
   const navigate = useNavigate()
   const [showEasterEgg, setShowEasterEgg] = useState(false)
-  // const [showIntake, setShowIntake] = useState(false)
+  const [showIntake, setShowIntake] = useState(false)
   const videoRef = useRef(null)
 
   useEffect(() => {
@@ -25,6 +25,10 @@ function HeroSection() {
     }
   }, [showEasterEgg])
 
+  if (showIntake) {
+    return <IntakeForm />
+  }
+
   return (
     <section className={`hero-section ${showEasterEgg ? 'video-playing' : ''}`}>
       {showEasterEgg && (
@@ -41,28 +45,38 @@ function HeroSection() {
       <div className="hero-content">
         <h1 className="hero-title">
           Toronto T
-          <span className="easter-egg-trigger" onClick={(e) => {
-            e.stopPropagation()
-            setShowEasterEgg(true)
-          }}>o</span>
+          <span
+            className="easter-egg-trigger"
+            onClick={(e) => {
+              e.stopPropagation()
+              setShowEasterEgg(true)
+            }}
+          >
+            o
+          </span>
           p Training
         </h1>
         <p className="hero-subtitle">
-          Personal training. Online programs. Trainer consulting.
+          Personal Training. Specialized Programs. Trainer Consulting.
         </p>
-        <a className="get-started-button" href="mailto:intake@torontotoptraining.com">Get Started</a>
+        <button
+          className="get-started-button"
+          onClick={() => setShowIntake(true)}
+        >
+          Get Started
+        </button>
         <div className="cta-section">
           <div onClick={() => navigate('/personal-training')} style={{ cursor: 'pointer' }}>
             <strong>Personal Training</strong>
-            <p>1-on-1 sessions in-person or virtual. Goal-driven and progress-focused.</p>
+            <p>1-on-1 Sessions in-person or virtual. Goal-driven and progress-focused.</p>
           </div>
           <div onClick={() => navigate('/program-design')} style={{ cursor: 'pointer' }}>
-            <strong>Online Programming</strong>
+            <strong>Specialized Programming</strong>
             <p>Custom plans with workouts, meals, and supplement guidance.</p>
           </div>
           <div onClick={() => navigate('/trainer-consult')} style={{ cursor: 'pointer' }}>
             <strong>Trainer Consulting</strong>
-            <p>Coaching for trainers to better serve tough or stuck clients.</p>
+            <p>Troubleshooting for trainers to better serve tough or stuck clients.</p>
           </div>
         </div>
       </div>
@@ -71,3 +85,4 @@ function HeroSection() {
 }
 
 export default HeroSection
+
