@@ -83,7 +83,7 @@ export default function IntakeForm() {
       contactInfo
     };
     try {
-      const res = await fetch("/functions/api/send-intake.js", {
+      const res = await fetch("/api/send-intake.js", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
